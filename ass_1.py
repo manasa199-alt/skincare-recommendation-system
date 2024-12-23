@@ -6,7 +6,7 @@ import pandas as pd
 def load_data():
     # Load the dataset
      data = pd.read_csv('cosmetics.csv')
-    return data
+     return data
 
 # Filter and recommend products
 def recommend_products(data, skin_type, product_type, price_range, specific_ingredient):
