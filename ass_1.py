@@ -5,7 +5,7 @@ import pandas as pd
 @st.cache_data
 def load_data():
     # Load the dataset
-    data=pd.read_csv(r'C:\Users\HP\Documents\streamlit_project\cosmetics.csv')
+     data = pd.read_csv('cosmetics.csv')
     return data
 
 # Filter and recommend products
